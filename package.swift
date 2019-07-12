@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Sync",
     platforms: [
-        .macOS(.v10_10), .iOS(.v10)
+        .macOS(.v10_13), .iOS(.v9)
     ],
     products: [
         .library(name: "Sync", targets: ["Sync"]),
@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "Sync",
-            path: "Sources"
+            path: "Source"
         ),
     ]
 )
